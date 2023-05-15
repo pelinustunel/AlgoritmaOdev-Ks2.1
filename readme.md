@@ -6,7 +6,7 @@
 •   **floydWarshall()** fonksiyonun da Floyd-Warshall kullanıldığı için `O(n^3)` olur.
 •   **quickSortSiralamaPrint()** 1 for döngüsü olduğu için n kez çalışır ve zaman karmaşıklığı `O(n)`, **pozitifMaxBulPrint()**, **floydWarshallPrint()** her iki fonksiyonda da 2 tane for döngüsü olduğu için her iki fonksiyonların da zaman karmaşıkları `O(n^2)` dir.
 
-Bu hesaplamalar sonucunda genel olarak zaman karmaşıklığı 
+Bu hesaplamalar sonucunda genel olarak zaman karmaşıklığı: 
 O(n) + O(n^2) + O(n) + O(n^3) + O(n) + O(n^2) + O(n^2) = O(n^3) olur.
 
 **Toplam zaman karmaşıklığı** aynı `O(n^3)` şeklinde kalacaktır. Çünkü Floyd-Warshall algoritması diğer kullanılan algoritmalardan daha yüksek karmaşıklığa sahiptir. Ayrıca Quick Sort algoritması kodun çalışmasını hızlandırmasında etkili ve verimli bir kullanım sağlamıştır.
