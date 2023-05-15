@@ -6,7 +6,7 @@
 
 •   **pozitifToplamOrtalamaBul()** fonksiyonu bir döngü başlatarak Her döngü adımında, mevcut current_sum değeri ile *a* dizisinin *i'inci* elemanı toplanır. Bu toplamın sonucu pozitif ise, *current_sum* bu değere eşitlenir. Eğer toplam negatif veya sıfır ise, *current_sum* sıfıra eşitlenir. current_sum değeri, t'den büyükse, t'ye current_sum değeri atanır. Aynı zamanda count bir artırılır. Bu, en büyük pozitif toplam değerini ve kaç adet pozitif toplam olduğunu takip etmek için kullanılır.Döngü sonlandığında, *t* değeri en büyük pozitif toplam değerini, count değeri ise kaç adet pozitif toplam olduğunu temsil eder.Fonksiyon, t'nin count ile bölünerek elde edilen ortalama pozitif toplam değerini döndürür ve yine dizi boyutu kadar yani n kadar çalışacağı için zaman karmaşıklığı `O(n)` olur.
 
-•   **floydWarshall()** fonksiyonun da Floyd-Warshall kullanıldığı için `O(n^3)` olur.
+•   **floydWarshall()** fonksiyonun da Floyd-Warshall kullanılmıştır. bu fonksiyonda 3 tane iç içe for döngüsü olduğu için ve her döngü n kez çalıştığından dolayı zaman karmaşıklığı `O(n^3)` olur.
 
 •   **quickSortSiralamaPrint()** 1 for döngüsü olduğu için n kez çalışır ve zaman karmaşıklığı `O(n)`, **pozitifMaxBulPrint()**, **floydWarshallPrint()** her iki fonksiyonda da 2 tane for döngüsü olduğu için her iki fonksiyonların da zaman karmaşıkları `O(n^2)` dir.
 
