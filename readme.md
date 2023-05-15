@@ -1,4 +1,4 @@
-#Geliştirilen Kod'un Zaman Karmaşıklığı
+# Geliştirilen Kod'un Zaman Karmaşıklığı
 
 •   **generate()** fonksiyonu her döngü adımında *a* dizisinin *i*'inci elemanına rastgele bir tamsayı atanır. Bu işlem *rand()* fonksiyonu ile gerçekleşir. Rastgele tamsayının değeri  2 x MAX_W 2 da küçük olana kadar *%* opertörü ile mod alınır. Burada MAX_W bir sabit değeri ifade eder. Mod alınan değer, MAX_W'ın negatif değeriyle MAX_W'ın pozitif değeri arasında olur. Bu elde edilen rastgele değer, a dizisinin i'inci elemanına atanır. Döngü sonlanasıya kadar devam eder bu yüzden dizi boyutu kadar çalışacağı için yani n kadar çalıştığından  zaman karmaşıklığı `O(n)` olur.
 •   **quickSortSiralama()** fonksiyonu, Quick sort kullanıldığı için zaman karmaşıklığı O(nlogn) dir. While döngüleri ile i ve j değerleri karşılaştırılarak pivot elemanın konumu bulunmaya çalışılır burada *n* kez işlem yapılır bulunduktan sonra parçalaya parçalaya elemanlara bakılacağı için *nlog** kez işlem yapılır. Sonuç olarak zaman karmaşıklığı `O(nlogn)` olur.
